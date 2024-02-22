@@ -1,0 +1,335 @@
+2020-06-21 23:15:39,882 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - create service.
+2020-06-21 23:15:39,891 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - createing user controller.
+2020-06-21 23:15:39,892 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - BoardController created.
+2020-06-21 23:15:39,892 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Board Service created.
+2020-06-21 23:15:39,893 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.DB - create SQL file
+2020-06-21 23:15:40,206 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DB - created Tables
+2020-06-21 23:15:40,209 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - attempting to load user list.
+2020-06-21 23:15:40,240 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Loading Board Controller and list of boards.
+2020-06-21 23:15:40,242 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DALControllers.BoardCtrl - acsses to LoadData From DataBase.
+2020-06-21 23:15:40,243 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - board list has been loaded.
+2020-06-21 23:15:49,258 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user aa@a.aa.
+2020-06-21 23:15:49,259 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: aa@a.aa Password: Aa123 nickname: a
+2020-06-21 23:15:49,260 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user to DAL obj for aa@a.aa.
+2020-06-21 23:15:49,292 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - user created for aa@a.aa
+2020-06-21 23:15:49,296 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - register values are legal.
+2020-06-21 23:15:49,314 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - attempting to create a board for new User : aa@a.aa
+2020-06-21 23:15:49,318 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 1 with size: 0
+2020-06-21 23:15:49,319 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: aa@a.aa
+2020-06-21 23:15:49,319 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: aa@a.aa seccess. IDTask is: 1
+2020-06-21 23:15:49,319 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for aa@a.aa has been made.
+2020-06-21 23:15:49,320 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - creating the board for aa@a.aa
+2020-06-21 23:15:49,321 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty backlog column for 1.
+2020-06-21 23:15:49,322 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting to DAL obj in 1.
+2020-06-21 23:15:49,339 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty in progress column for 1.
+2020-06-21 23:15:49,339 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting to DAL obj in 1.
+2020-06-21 23:15:49,358 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty done column for 1.
+2020-06-21 23:15:49,358 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 1.
+2020-06-21 23:15:49,375 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a new board for aa@a.aa has been made.
+2020-06-21 23:15:49,394 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - the Board of aa@a.aa is ready.
+2020-06-21 23:16:32,586 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - create service.
+2020-06-21 23:16:32,595 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - createing user controller.
+2020-06-21 23:16:32,596 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - BoardController created.
+2020-06-21 23:16:32,596 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Board Service created.
+2020-06-21 23:16:32,597 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - attempting to load user list.
+2020-06-21 23:16:32,686 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user from DAL obj for aa@a.aa.
+2020-06-21 23:16:32,686 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Loading Board Controller and list of boards.
+2020-06-21 23:16:32,689 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DALControllers.BoardCtrl - acsses to LoadData From DataBase.
+2020-06-21 23:16:32,693 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,694 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: backlog 0
+2020-06-21 23:16:32,694 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,696 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: done 0
+2020-06-21 23:16:32,696 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,697 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: in progress 0
+2020-06-21 23:16:32,697 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 1 with size: 3
+2020-06-21 23:16:32,698 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting from DAL obj in .
+2020-06-21 23:16:32,698 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 backlog 0 100
+2020-06-21 23:16:32,698 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,699 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting from DAL obj in .
+2020-06-21 23:16:32,699 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 done 2 100
+2020-06-21 23:16:32,699 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,700 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting from DAL obj in .
+2020-06-21 23:16:32,701 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 in progress 1 100
+2020-06-21 23:16:32,701 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2020-06-21 23:16:32,703 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: aa@a.aa
+2020-06-21 23:16:32,704 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: aa@a.aa seccess. IDTask is: 1
+2020-06-21 23:16:32,705 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for aa@a.aa has been made.
+2020-06-21 23:16:32,706 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - board list has been loaded.
+2020-06-21 23:16:39,257 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - logging in to user aa@a.aa.
+2020-06-21 23:16:39,259 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - email aa@a.aa exists in the system.
+2020-06-21 23:16:39,259 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - given password matches.
+2020-06-21 23:16:39,259 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - aa@a.aa has successfully logged in.
+2020-06-21 23:16:39,260 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - aa@a.aa Logging in to the board.
+2020-06-21 23:16:39,261 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - successfully opened board for aa@a.aa.
+2020-06-21 23:16:39,272 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - aa@a.aa attempting to get the board.
+2020-06-21 23:16:39,274 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - aa@a.aa attempting to get the column backlog.
+2020-06-21 23:16:39,276 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2020-06-21 23:16:39,277 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - aa@a.aa attempting to get the column in progress.
+2020-06-21 23:16:39,277 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2020-06-21 23:16:39,278 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - aa@a.aa attempting to get the column done.
+2020-06-21 23:16:39,278 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-20 17:43:06,697 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - create service.
+2024-02-20 17:43:06,702 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - createing user controller.
+2024-02-20 17:43:06,702 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - BoardController created.
+2024-02-20 17:43:06,702 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Board Service created.
+2024-02-20 17:43:06,703 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - attempting to load user list.
+2024-02-20 17:43:06,830 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user from DAL obj for aa@a.aa.
+2024-02-20 17:43:06,831 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Loading Board Controller and list of boards.
+2024-02-20 17:43:06,832 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DALControllers.BoardCtrl - acsses to LoadData From DataBase.
+2024-02-20 17:43:06,834 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,835 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: backlog 0
+2024-02-20 17:43:06,835 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,836 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: done 0
+2024-02-20 17:43:06,836 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,837 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: in progress 0
+2024-02-20 17:43:06,837 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 1 with size: 3
+2024-02-20 17:43:06,837 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting from DAL obj in .
+2024-02-20 17:43:06,837 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 backlog 0 100
+2024-02-20 17:43:06,837 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,838 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting from DAL obj in .
+2024-02-20 17:43:06,838 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 done 2 100
+2024-02-20 17:43:06,838 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,839 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting from DAL obj in .
+2024-02-20 17:43:06,839 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 in progress 1 100
+2024-02-20 17:43:06,839 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:43:06,840 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: aa@a.aa
+2024-02-20 17:43:06,840 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: aa@a.aa seccess. IDTask is: 1
+2024-02-20 17:43:06,840 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for aa@a.aa has been made.
+2024-02-20 17:43:06,840 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - board list has been loaded.
+2024-02-20 17:43:48,617 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user test@test.com.
+2024-02-20 17:43:48,617 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: test@test.com Password: 123123 nickname: aleks Host: host1
+2024-02-20 17:43:48,638 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - register failed. due to failed to Select from users
+2024-02-20 17:44:17,136 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user test@test.com.
+2024-02-20 17:44:17,136 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: test@test.com Password: 123123 nickname: aleks Host: aleks
+2024-02-20 17:44:17,147 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - register failed. due to failed to Select from users
+2024-02-20 17:45:41,588 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - create service.
+2024-02-20 17:45:41,593 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - createing user controller.
+2024-02-20 17:45:41,593 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - BoardController created.
+2024-02-20 17:45:41,593 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Board Service created.
+2024-02-20 17:45:41,594 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - attempting to load user list.
+2024-02-20 17:45:41,665 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user from DAL obj for aa@a.aa.
+2024-02-20 17:45:41,666 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Loading Board Controller and list of boards.
+2024-02-20 17:45:41,667 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DALControllers.BoardCtrl - acsses to LoadData From DataBase.
+2024-02-20 17:45:41,670 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,671 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: backlog 0
+2024-02-20 17:45:41,671 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,672 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: done 0
+2024-02-20 17:45:41,672 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,672 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: in progress 0
+2024-02-20 17:45:41,673 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 1 with size: 3
+2024-02-20 17:45:41,673 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting from DAL obj in .
+2024-02-20 17:45:41,673 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 backlog 0 100
+2024-02-20 17:45:41,674 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,674 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting from DAL obj in .
+2024-02-20 17:45:41,674 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 done 2 100
+2024-02-20 17:45:41,674 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,675 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting from DAL obj in .
+2024-02-20 17:45:41,676 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 in progress 1 100
+2024-02-20 17:45:41,676 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-20 17:45:41,677 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: aa@a.aa
+2024-02-20 17:45:41,678 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: aa@a.aa seccess. IDTask is: 1
+2024-02-20 17:45:41,678 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for aa@a.aa has been made.
+2024-02-20 17:45:41,678 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - board list has been loaded.
+2024-02-20 17:45:54,608 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user test@test.com.
+2024-02-20 17:45:54,608 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: test@test.com Password: 123123 nickname: aleks
+2024-02-20 17:45:54,609 [1] WARN IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - password too weak. must include at least one uppercase letter, one lowercase letter and a number and be between 5 and 25 characters.
+2024-02-20 17:45:54,625 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - register failed. due to must include at least one uppercase letter, one lowercase letter and a number and be between 5 and 25 characters.
+2024-02-20 17:46:16,543 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user test@test.com.
+2024-02-20 17:46:16,543 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: test@test.com Password: Aa123123 nickname: aleks
+2024-02-20 17:46:16,544 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user to DAL obj for test@test.com.
+2024-02-20 17:46:16,550 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - user created for test@test.com
+2024-02-20 17:46:16,551 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - register values are legal.
+2024-02-20 17:46:16,552 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - attempting to create a board for new User : test@test.com
+2024-02-20 17:46:16,553 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 2 with size: 0
+2024-02-20 17:46:16,553 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: test@test.com
+2024-02-20 17:46:16,553 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: test@test.com seccess. IDTask is: 1
+2024-02-20 17:46:16,553 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for test@test.com has been made.
+2024-02-20 17:46:16,554 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - creating the board for test@test.com
+2024-02-20 17:46:16,554 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty backlog column for 2.
+2024-02-20 17:46:16,554 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting to DAL obj in 2.
+2024-02-20 17:46:16,557 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty in progress column for 2.
+2024-02-20 17:46:16,557 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting to DAL obj in 2.
+2024-02-20 17:46:16,559 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty done column for 2.
+2024-02-20 17:46:16,559 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 2.
+2024-02-20 17:46:16,562 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a new board for test@test.com has been made.
+2024-02-20 17:46:16,566 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - the Board of test@test.com is ready.
+2024-02-20 17:46:29,984 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - logging in to user test@test.com.
+2024-02-20 17:46:29,984 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - email test@test.com exists in the system.
+2024-02-20 17:46:29,984 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - given password matches.
+2024-02-20 17:46:29,984 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - test@test.com has successfully logged in.
+2024-02-20 17:46:29,985 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - test@test.com Logging in to the board.
+2024-02-20 17:46:29,985 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - successfully opened board for test@test.com.
+2024-02-20 17:46:29,990 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - test@test.com attempting to get the board.
+2024-02-20 17:46:29,991 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - test@test.com attempting to get the column backlog.
+2024-02-20 17:46:29,991 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-20 17:46:29,992 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - test@test.com attempting to get the column in progress.
+2024-02-20 17:46:29,992 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-20 17:46:29,992 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - test@test.com attempting to get the column done.
+2024-02-20 17:46:29,992 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:47:03,245 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - create service.
+2024-02-21 10:47:03,260 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - createing user controller.
+2024-02-21 10:47:03,260 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - BoardController created.
+2024-02-21 10:47:03,260 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Board Service created.
+2024-02-21 10:47:03,260 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - attempting to load user list.
+2024-02-21 10:47:03,402 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user from DAL obj for aa@a.aa.
+2024-02-21 10:47:03,402 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user from DAL obj for test@test.com.
+2024-02-21 10:47:03,402 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - Loading Board Controller and list of boards.
+2024-02-21 10:47:03,402 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DALControllers.BoardCtrl - acsses to LoadData From DataBase.
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: backlog 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: done 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: in progress 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 1 with size: 3
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 backlog 0 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 done 2 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 1 in progress 1 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: aa@a.aa
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: aa@a.aa seccess. IDTask is: 1
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for aa@a.aa has been made.
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: backlog 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: done 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - loaded tasks for column: in progress 0
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 2 with size: 3
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 2 backlog 0 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 2 done 2 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting from DAL obj in .
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - 2 in progress 1 100
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - creating DAL task
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: test@test.com
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: test@test.com seccess. IDTask is: 1
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for test@test.com has been made.
+2024-02-21 10:47:03,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - board list has been loaded.
+2024-02-21 10:47:38,395 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - registering user mishel@gmail.com.
+2024-02-21 10:47:38,395 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - Email: mishel@gmail.com Password: Aa123123 nickname: mishel
+2024-02-21 10:47:38,396 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.User - converting user to DAL obj for mishel@gmail.com.
+2024-02-21 10:47:38,402 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - user created for mishel@gmail.com
+2024-02-21 10:47:38,403 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - register values are legal.
+2024-02-21 10:47:38,405 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - attempting to create a board for new User : mishel@gmail.com
+2024-02-21 10:47:38,406 [1] DEBUG IntroSE.Kanban.Backend.DataAccessLayer.DalObject`1 - columns loaded for 3 with size: 0
+2024-02-21 10:47:38,406 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - Order the columns of email: mishel@gmail.com
+2024-02-21 10:47:38,406 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - LoadData Board of email: mishel@gmail.com seccess. IDTask is: 1
+2024-02-21 10:47:38,406 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a board for mishel@gmail.com has been made.
+2024-02-21 10:47:38,406 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - creating the board for mishel@gmail.com
+2024-02-21 10:47:38,406 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty backlog column for 3.
+2024-02-21 10:47:38,407 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting to DAL obj in 3.
+2024-02-21 10:47:38,409 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty in progress column for 3.
+2024-02-21 10:47:38,409 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting to DAL obj in 3.
+2024-02-21 10:47:38,411 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty done column for 3.
+2024-02-21 10:47:38,411 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 3.
+2024-02-21 10:47:38,414 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - a new board for mishel@gmail.com has been made.
+2024-02-21 10:47:38,417 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - the Board of mishel@gmail.com is ready.
+2024-02-21 10:47:45,244 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.UserService - logging in to user mishel@gmail.com.
+2024-02-21 10:47:45,245 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - email mishel@gmail.com exists in the system.
+2024-02-21 10:47:45,245 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - given password matches.
+2024-02-21 10:47:45,245 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.UserControl.UserController - mishel@gmail.com has successfully logged in.
+2024-02-21 10:47:45,245 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com Logging in to the board.
+2024-02-21 10:47:45,245 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.BoardController - successfully opened board for mishel@gmail.com.
+2024-02-21 10:47:45,252 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:47:45,253 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:47:45,253 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:47:45,254 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:47:45,254 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:47:45,254 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:47:45,254 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:25,819 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to add new task.
+2024-02-21 10:48:25,820 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - creating new task: #1 title: do resume for mishel@gmail.com
+2024-02-21 10:48:25,820 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - adding task: #1 title: do resume to column: backlog in 3.
+2024-02-21 10:48:25,820 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1converting to DAL obj in mishel@gmail.com.
+2024-02-21 10:48:25,825 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1column changing from backlog to backlog for mishel@gmail.com.
+2024-02-21 10:48:25,825 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1converting to DAL obj in mishel@gmail.com.
+2024-02-21 10:48:25,830 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:48:25,830 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:25,830 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:25,831 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:25,831 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:25,831 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:48:25,831 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:30,557 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:48:30,558 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:34,571 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to advance task #1.
+2024-02-21 10:48:34,572 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - retrieving task with ID: 1 from column: backlog in 3.
+2024-02-21 10:48:34,572 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - adding task: #1 title: do resume to column: in progress in 3.
+2024-02-21 10:48:34,572 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1column changing from backlog to in progress for mishel@gmail.com.
+2024-02-21 10:48:34,572 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1converting to DAL obj in mishel@gmail.com.
+2024-02-21 10:48:34,575 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - removing task: #1 title: do resume from column: backlog in 3.
+2024-02-21 10:48:34,575 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - task #1 advanced successfully.
+2024-02-21 10:48:34,576 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:34,576 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:34,577 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:34,577 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:44,490 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to Add column number #3
+2024-02-21 10:48:44,490 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - creating new empty review column for 3.
+2024-02-21 10:48:44,490 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column review converting to DAL obj in 3.
+2024-02-21 10:48:44,494 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting to DAL obj in 3.
+2024-02-21 10:48:44,494 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting to DAL obj in 3.
+2024-02-21 10:48:44,494 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1converting to DAL obj in mishel@gmail.com.
+2024-02-21 10:48:44,495 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 3.
+2024-02-21 10:48:44,495 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column review converting to DAL obj in 3.
+2024-02-21 10:48:44,496 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - mishel@gmail.com added column number #3 succses
+2024-02-21 10:48:44,496 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:44,496 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column review.
+2024-02-21 10:48:44,496 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:47,371 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to move to left, column number #3
+2024-02-21 10:48:47,371 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 3.
+2024-02-21 10:48:47,373 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column review converting to DAL obj in 3.
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - the columns #3 #2 chenge place.
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - mishel@gmail.com Moved left column was number #3 succses
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:47,375 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column review.
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:48:47,376 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:50,482 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to move to right, column number #2
+2024-02-21 10:48:50,482 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 3.
+2024-02-21 10:48:50,485 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column review converting to DAL obj in 3.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - the columns #2 #3 chenge place.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - mishel@gmail.com Moved right column was number #2 succses
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column review.
+2024-02-21 10:48:50,487 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:52,051 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to remove column number #3
+2024-02-21 10:48:52,051 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:52,055 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column backlog converting to DAL obj in 3.
+2024-02-21 10:48:52,056 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column in progress converting to DAL obj in 3.
+2024-02-21 10:48:52,056 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Task - task #1converting to DAL obj in mishel@gmail.com.
+2024-02-21 10:48:52,056 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - column done converting to DAL obj in 3.
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.BoardControl.Board - mishel@gmail.com removed column number #3 succses
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the board.
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column backlog.
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column in progress.
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.SubService.BoardService - mishel@gmail.com attempting to get the column done.
+2024-02-21 10:48:52,057 [1] DEBUG IntroSE.Kanban.Backend.BusinessLayer.TaskControl.Column - returning all tasks
